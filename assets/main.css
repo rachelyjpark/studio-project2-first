@@ -56,9 +56,9 @@ display: flex;
 }
 
 @keyframes fall {
- 0%  { transform: translateX(-8.5rem) translateY(9.2rem); }
-    50% { transform:  translateY(25rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
-    100% { transform: translateX(-8.5rem) translateY(9.2rem); }
+ 0%  { transform: translateX(-8.5rem) translateY(8.2rem); }
+    50% { transform: translateY(25rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
+    100% { transform: translateX(-8.5rem) translateY(8.2rem); }
   }
   #fall {
  font-size: 18px;
