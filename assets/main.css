@@ -1,0 +1,142 @@
+body {
+  height: 250vh;
+
+background: rgb(124,93,90);
+background: linear-gradient(0deg, rgba(124,93,90,1) 0%, rgba(225,203,201,1) 45%, rgba(242,234,233,1) 100%);
+  margin: 10%;
+}
+
+
+
+.text-1 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+.text-2 {
+    position: relative;
+  top: 400px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+
+}
+
+
+.text-3 {
+  position: relative;
+ top: 750px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+.text-4 {
+      position: relative;
+  top: 1050px;
+ 
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: white;
+  font-family: helvetica;
+  font-size: 18px;
+}
+
+@keyframes fall {
+ 0%  { transform: translateX(-8.5rem) translateY(9.2rem); }
+    50% { transform:  translateY(50rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
+    100% { transform: translateX(-8.5rem) translateY(9.2rem); }
+  }
+  #fall {
+ font-size: 18px;
+    animation: fall 10s ease-in-out infinite;
+  font-family: linotype-sabon,sans-serif;
+font-weight: 400;
+font-style: normal;
+}
+
+
+@media only screen and (min-width: 800px) {
+
+.text-1 {
+  position: relative;
+  top: 50px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  color: #7c5d5a;
+  font-family: helvetica;
+  font-size: 22px;
+}
+.text-2 {
+    position: relative;
+  top: 550px;
+display: flex;
+   justify-content: center;
+  text-align: center;
+  color: #ad9997;
+  font-family: helvetica;
+  font-size: 22px;
+
+}
+  .text-3 {
+  position: relative;
+ top: 1050px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: #eeeaea;
+  font-family: helvetica;
+  font-size: 22px;
+}
+.text-4 {
+      position: relative;
+  top: 1550px;
+ 
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  color: #f2eae9;
+  font-family: helvetica;
+  font-size: 22px;
+}
+  @keyframes fall {
+ 0%  { transform: translateX(-8rem) translateY(3.2rem); }
+    50% { transform:  translateY(26rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
+    100% { transform: translateX(-8rem) translateY(3.2rem); }
+  }
+  #fall {
+ font-size: 18px;
+    animation: fall 5s ease-in-out infinite;
+  font-family: linotype-sabon,sans-serif;
+font-weight: 400;
+font-style: normal;
+color: #f2eae9;
+}
+
+.next {
+  position: relative;
+  top: 1750px;
+  display: flex;
+   justify-content: center;
+  text-align: center;
+  font-size: 35px;
+  font-weight: 800;
+  transform: scaleY(2);
+  color: #f2eae9;
+
+}
+
