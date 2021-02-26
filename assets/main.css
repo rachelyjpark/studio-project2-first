@@ -57,7 +57,7 @@ display: flex;
 
 @keyframes fall {
  0%  { transform: translateX(-8.5rem) translateY(9.2rem); }
-    50% { transform:  translateY(50rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
+    50% { transform:  translateY(25rem) translateX(2rem) rotateZ(90deg) scale(0.2, 0.2); }
     100% { transform: translateX(-8.5rem) translateY(9.2rem); }
   }
   #fall {
@@ -67,6 +67,7 @@ display: flex;
 font-weight: 400;
 font-style: normal;
 }
+
 
 
 @media only screen and (min-width: 800px) {
